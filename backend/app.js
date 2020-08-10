@@ -14,7 +14,7 @@ const app = express();
 
 const routeProduct = require('./routes/productRoute');
 
-mongoose.connect("mongodb+srv://vasiti_user:vasiti12345@cluster0-jsgc7.mongodb.net/avios?retryWrites=true&w=majority")
+mongoose.connect("")
 .then(() => {
     console.log('connected to database');
 }).catch((err) => {
