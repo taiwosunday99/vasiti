@@ -1,0 +1,36 @@
+1.      Avios provides a platform where buyers meet sellers. Avios wants to allow sellers add varieties to their product while uploading.
+         Write a simple upload product program with ability to add varieties.
+          NB: varieties are same product having different size, color, quantity, and price
+            
+a)       Save product in a single row with it variants. Record should look like this:
+          Table field: product_name, product_description, product_varieties, date_uploaded, date_edited, show
+            
+          product_varieties will take in json value holding all varieties:
+          [
+                  {
+                        "size":"32",
+                        "color":"Orange",
+                        "quantity":"15",
+                        "images":["image1", "image2"],
+                        "price":"23000"
+                  },
+                   {
+                        "product_name":"samsung tv",
+                        "product_description":"white big size",
+                        "product_varieties":"model 12345",
+                        "date_uploaded": new Date()
+                  }
+                  ...
+            ]
+
+ b)        Display the product with minimum of three varieties
+
+ c)        Update the product and it varieties
+
+ d)        Delete varieties
+
+
+
+mongodb password K9hbsqLzNOkFEG1K
+
+vasiti12345
